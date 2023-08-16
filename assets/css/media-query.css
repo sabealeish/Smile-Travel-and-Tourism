@@ -1,0 +1,417 @@
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 991px){
+
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 1200px ) {
+  .place__container {
+    grid-template-columns: repeat(2, max-content);
+  } 
+
+  .place__card {
+    margin: 15px;
+  }
+
+  .about__title::before{
+    display: none !important;
+  }
+
+  .about__title::after{
+    display: none !important;
+  }
+
+  h2::before{
+    display: none !important;
+  }
+
+  h2::after{
+    display: none !important;
+  }
+
+  .about__title{
+    text-align: left;
+    margin-left: 0;
+  }
+  
+
+.img-footer {
+  margin-left: 228px;
+}
+
+.subscribe__description,
+.home__data-title {
+  font-size: 40px;
+}
+
+.home__data-subtitle{
+  font-size: 15px;
+}
+
+.nav__list {
+  flex-direction: row;
+  column-gap: 3rem;
+  margin-right: 19px;
+}
+
+.nav{
+  margin-top: 10px;
+}
+
+.nav-logo{
+  margin-left: 19px;
+    width: 56px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.home-vise .text-visa .about__title{
+  font-size: 25px;
+}
+
+.home-vise .text-visa .about__title-tow{
+  font-size: 17px;
+}
+
+.home-vise .text-visa .about__description{
+  font-size: 10px;
+}
+
+
+
+#Rectangle-56{
+  margin-right: 15px;
+}
+
+#Rectangle-55{
+  margin-left: 15px;
+}
+
+.text-visa .btn-visa a button {
+  width: 253px;
+  height: 48px;
+  margin: 8px;
+  border: none;
+}
+
+.popup{
+  width: 699px;
+}
+
+.video__description{
+  font-size: 13px;
+}
+
+
+.about .img-conact{
+  display: none;
+}
+
+
+.about .title-form{
+  margin-left: 25%;
+  margin-top: 65px;
+}
+
+.about .title-form h3{
+  margin-left: 10%;
+}
+
+.title-form h3::before {
+  content: '';
+  width: 49px;
+  height: 5px;
+  border-radius: 15px;
+  background-color: rgba(109, 169, 203, 1);
+  position: absolute;
+  left: 0%;
+  top: 3.8%;
+}
+
+
+
+}
+
+@media screen and (min-width: 992px){
+   
+}
+
+@media screen and (min-width:576px){
+
+}
+
+
+  
+@media (max-width: 450px){
+
+}
+
+@media (max-width: 365px){
+   
+}
+
+
+@media screen and (min-width: 767px){
+
+}
+
+
+
+@media screen and (max-width: 767px){
+    .place__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+  }
+
+  .place__card{
+    margin-top: 20px;
+  }
+
+  header{
+    padding: 15px;
+  }
+
+  .nav__logo img{
+    width: 50px;
+  }
+
+  .home__data-title{
+    font-size: 30px;
+  }
+
+  .home__data-subtitle{
+    font-size: 15px;
+  }
+
+  .about__data{
+    text-align: left;
+  }
+
+  
+
+
+
+  .about__title{
+    text-align: left;
+    font-size: 25px;
+  }
+
+
+.about__title-tow {
+  font-size: 21px;
+}
+
+.about__description{
+  font-size: 15px;
+}
+
+.about__title-tow{
+  font-size: 19px;
+}
+
+.about__data ul{
+  font-size: 14px;
+}
+
+.about__data ul li{
+  margin-top: 10px;
+}
+
+.subscribe__description{
+  font-size: 22px;
+}
+
+.section__title {
+  font-size: 22px;
+}
+
+.video__description{
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* page vise */
+.home-vise{
+  display: block;
+}
+
+.text-visa .btn-visa a button {
+  width: 279px;
+}
+
+
+.home-vise .text-visa {
+  width: 323px;
+  margin: 0;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-vise .text-visa .about__title{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 18px;
+}
+
+.home-vise .text-visa .about__description{
+  font-size: 14px;
+  text-align: left;
+}
+
+
+.home-vise .text-visa .about__title-tow {
+  font-size: 20px;
+}
+
+
+
+#Rectangle-55 img{
+  margin-left: 83px;
+  margin-bottom: 81px;
+
+}
+
+#Rectangle-56 img{
+  margin-left: 83px;
+  margin-top: 81px;
+}
+
+.video__description{
+  margin-bottom: 34px;
+}
+
+.text-uae h1 {
+  font-size: 33px;
+}
+
+#home__data-subtitle {
+  font-size: 13px;
+}
+
+.popup {
+  width: 362px;
+}
+
+.popup div {
+  width: 315px;
+  height: 315px;
+}
+
+.popup div img{
+  width: 120px;
+}
+
+.popup h3 {
+  font-size: 17px;
+}
+
+.popup p {
+  font-size: 10px;
+}
+
+.experience h4 {
+  font-size: 18px;
+}
+
+#video__description {
+  font-size: 11px;
+}
+
+.apply-visa-tow{
+  font-size: 20px;
+}
+
+
+#video__description-tow{
+  font-size: 12px;
+}
+
+
+.img-conact{
+  display: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.title-form input{
+  height: 40px;
+}
+
+.title-form .inp-text,
+.title-form textarea{
+  width: 90%;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.title-form{
+  position: relative;
+  width: 100%;
+  margin-top: 51px;
+  margin-bottom: 50px;
+}
+
+.title-form p{
+  width: 90%;
+  font-size: 12px;
+}
+
+.title-form h3{
+  font-size: 25px;
+  margin-left: 0;
+}
+
+
+
+.text-uae-tow h1{
+  top: -200px;
+}
+
+
+.about__title::before{
+  display: none !important;
+}
+
+.about__title::after{
+  display: none !important;
+}
+
+h2::before{
+  display: none !important;
+}
+
+h2{
+  margin-left: 0 !important;
+}
+
+.home-vise .text-visa .about__title{
+  text-align: left;
+}
+
+
+h2::after{
+  display: none !important;
+}
+
+
+
+h3::before{
+  display: none !important;
+}
+
+h3::after{
+  display: none !important;
+}
+
+}
