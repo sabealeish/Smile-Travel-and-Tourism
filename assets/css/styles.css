@@ -132,8 +132,8 @@ ul {
   list-style: none;
 }
 
-.one img{
-  cursor: default !important;
+.one{
+  cursor: pointer;
 }
 
 a {
@@ -301,6 +301,10 @@ button {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+}
+
+.nav__logo img{
+  width: 75px;
 }
 
 .nav__toggle {
