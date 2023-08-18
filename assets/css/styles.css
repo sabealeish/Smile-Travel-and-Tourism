@@ -157,7 +157,7 @@ button {
 
 
 .header-tow{
-  background-color: #DADADA !important;
+  background-color: #aac9d7 !important;
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -362,7 +362,7 @@ button {
 
 /* Change background header */
 .scroll-header {
-  background-color: #DADADA;
+  background-color: #aac9d7;
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 
