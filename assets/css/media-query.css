@@ -427,12 +427,6 @@ body{
   height: 40px;
 }
 
-.title-form .inp-text,
-.title-form textarea{
-  width: 90%;
-  font-size: 13px;
-  padding: 5px;
-}
 
 .title-form{
   position: relative;
@@ -496,6 +490,16 @@ h3::after{
 .place__container {
   grid-template-columns: repeat(1, max-content) !important;
   justify-content: center;
+}
+
+
+.title-form{
+  overflow: hidden;
+}
+
+.title-form input{
+  max-width: 80%;
+  padding: 20px !important;
 }
 
 }
