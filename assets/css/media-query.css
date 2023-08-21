@@ -192,7 +192,7 @@ body{
   }
 
   .home__data-title{
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .home__data-subtitle{
@@ -491,6 +491,11 @@ h3::before{
 
 h3::after{
   display: none !important;
+}
+
+.place__container {
+  grid-template-columns: repeat(1, max-content) !important;
+  justify-content: center;
 }
 
 }

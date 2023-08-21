@@ -172,6 +172,11 @@ button {
   margin-bottom: var(--mb-2);
 }
 
+.place__container {
+  grid-template-columns: repeat(3, max-content) !important;
+  justify-content: center;
+}
+
 .experience{
   position: relative;
 }
@@ -261,7 +266,7 @@ button {
   border-radius: 15px;
   background-color: rgba(109, 169, 203, 1);
   position: absolute;
-  left: 35%;
+  left: 39%;
   top: 42.5%;
 }
 
@@ -417,10 +422,9 @@ button {
 }
 
 .home__data-title {
-  font-size: 56px;
+  font-size: 50px;
   line-height: 84px;
   width: 600;
-  margin-bottom: var(--mb-2-5);
   font-weight: bold;
 }
 
@@ -507,6 +511,11 @@ button {
   color: black;
   margin-left: 30px;
   font-weight: 500;
+  font-size: 16px;
+}
+
+.about__data ul li{
+  margin-top: 15px;
 }
 
 .about__title{
@@ -1255,7 +1264,7 @@ text-align: left;
 .home-vise .text-visa .about__description{
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: -0.022em;
   text-align: left;
   
@@ -1330,12 +1339,12 @@ text-align: left;
 
 .content h3{
   width: 229px;
-  height: 30px;
+  height: 67px;
 }
 
 .content p{
   width: 245.46px;
-  height: 80.58px;
+  height: 130px;
 }
 
 .box button{
@@ -1364,9 +1373,13 @@ text-align: left;
 .text-uae h1{
 font-size: 56px;
 font-weight: 600;
-line-height: 24px !important;
 letter-spacing: -0.022em;
 text-align: left;
+}
+
+.text-uae span {
+  width: 75%;
+  font-size: 16px;
 }
 
 .home-text-uae{
@@ -1614,34 +1627,34 @@ text-align: left;
 color: rgba(79, 79, 79, 1);
 }
 
-.title-form .inp-text{
-  width: 505px;
+.title-form form #inp-text{
+width: 505px;
 height: 55px;
 top: 31px;
 padding: 16px 323px 16px 24px;
 border-radius: 4px;
 border: 1px solid rgba(189, 189, 189, 1);
 gap: 10px;
-margin-top: 15px;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: -0.011em;
 text-align: left;
 color: rgba(79, 79, 79, 1);
 
 }
 
-.title-form input[type="submit"]{
+.title-form form .sub{
   text-align: center;
   width: 30%;
   padding: 10px;
+  margin-top: -20px;
   background-color: #6da9cb;
   color: white;
   font-size: 20px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  
 }
 
 .title-form textarea{
