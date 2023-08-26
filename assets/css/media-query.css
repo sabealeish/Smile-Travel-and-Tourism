@@ -422,17 +422,17 @@ body{
   overflow-x: hidden;
 }
 
-
-.title-form input{
-  height: 40px;
-}
-
-
 .title-form{
   position: relative;
   width: 100%;
   margin-top: 51px;
   margin-bottom: 50px;
+}
+
+
+.container-form{
+  overflow-x: hidden;
+  display: block;
 }
 
 .title-form p{
@@ -493,6 +493,8 @@ h3::after{
 }
 
 
+
+
 .title-form{
   overflow: hidden;
 }
@@ -500,6 +502,7 @@ h3::after{
 .title-form input{
   max-width: 80%;
   padding: 20px !important;
+  height: 40px;
 }
 
 }

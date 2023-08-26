@@ -404,6 +404,9 @@ button {
   background-color: #002A72;
   border-radius: 8px;
   margin-top: 10px;
+  color: white;
+  width: 200px;
+  height: 50px;
 }
 
 .home__data-subtitle, 
@@ -476,14 +479,7 @@ button {
 }
 
 /*=============== BUTTONS ===============*/
-.button {
-  display: inline-block;
-  background-color: var(--first-color);
-  color: var(--white-color);
-  padding: 1rem 2rem;
-  font-weight: var(--font-semi-bold);
-  transition: .3s;
-}
+
 
 
 .button--flex {
@@ -1306,7 +1302,7 @@ text-align: left;
 
 .box2{
   width: 240px;
-  height: 550px;
+  height: 650px;
 }
 
 .box2 h3{
@@ -1330,7 +1326,9 @@ text-align: left;
   height: 55px;
   color: white;
   border-radius: 8px;
-  margin-top: 35px;
+  margin-top: -20px;
+  position: relative;
+    
 }
 
 .content{
@@ -1345,6 +1343,7 @@ text-align: left;
 .content p{
   width: 245.46px;
   height: 130px;
+  margin-bottom: 30px;
 }
 
 .box button{
@@ -1354,6 +1353,7 @@ text-align: left;
   color: white;
   border-radius: 8px;
   margin: 20px;
+  margin-top: 20px;
 }
 
 .text-uae{
@@ -1642,12 +1642,11 @@ text-align: left;
 color: rgba(79, 79, 79, 1);
 
 }
-
-.title-form form .sub{
+ .sub{
   text-align: center;
   width: 30%;
   padding: 10px;
-  margin-top: -20px;
+  margin-top: 20px;
   background-color: #6da9cb;
   color: white;
   font-size: 20px;
