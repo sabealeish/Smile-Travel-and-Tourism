@@ -177,6 +177,11 @@ body{
 
 
 @media screen and (max-width: 767px){
+
+  .title-form{
+    height: 1122.31px;
+  }
+
     .place__container {
     grid-template-columns: repeat(1, max-content);
     justify-content: center;
@@ -505,8 +510,6 @@ h3::after{
 
 .title-form input{
   max-width: 80%;
-  padding: 20px !important;
-  height: 40px;
 }
 
 .activies-img{
@@ -514,3 +517,4 @@ h3::after{
 }
 
 }
+
