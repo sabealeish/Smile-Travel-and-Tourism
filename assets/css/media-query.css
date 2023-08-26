@@ -24,8 +24,12 @@
 }
   
   .place__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, max-content) !important;
   } 
+
+  .activies-img{
+    margin-top: 30px !important;
+  }
 
   .place__card {
     margin: 15px;
@@ -503,6 +507,10 @@ h3::after{
   max-width: 80%;
   padding: 20px !important;
   height: 40px;
+}
+
+.activies-img{
+  margin-top: 50px !important;
 }
 
 }

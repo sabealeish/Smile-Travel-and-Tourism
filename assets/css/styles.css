@@ -1784,3 +1784,14 @@ input.check-toggle-round-flat + label:after {
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
+
+
+.activies-img{
+  margin-top: 15px;
+}
+.activies-img a p{
+  background-color: #002A72;
+  padding: 10px;
+  color: white;
+  border-radius:8px; 
+}
